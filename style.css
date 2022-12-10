@@ -5,10 +5,10 @@
 }
 /* Margó igazítás */
 h1,h2,h3,ul,ol,p,img {
-    margin-bottom: 15rem;
+    margin-bottom: 1.5rem;
 }
 body {
-    background: url(assets/background.png);
+    background: url(assets/background.png) repeat center;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.125rem;
     line-height: 1.5;
@@ -41,7 +41,7 @@ a:hover {
 /*------------------ Fejléc ------------------*/
 
 .cover {
-    background: url(assets/cover.jpg);
+    background: url(assets/cover.jpg) no-repeat 70% center/cover;
     display: table;
     text-align: center;
     height: 100vh;
@@ -88,13 +88,13 @@ a:hover {
     vertical-align: middle;
     margin: 0 .5rem;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 
     .cover {
       background: url(assets/background.png) no-repeat center/cover;
     }
   
-  }
+  }*/
   @media (min-width: 768px) {
 
     .hero-text {
